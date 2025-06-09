@@ -35,6 +35,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update Wales results calendar"
+            git commit -m "Update Cardiff results calendar"
             git push
           fi
